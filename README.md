@@ -1,9 +1,11 @@
 # LiveChessCV
 
 ## Objectives
-- [ ] Get camera view of chessboard  
-- [ ] Detect board itself  
-- [ ] Detect squares within board, associate letters & numbers to squares  
+- [x] Get camera view of chessboard  
+    - Used OpenCV to get a live video feed from my webcam. 
+- [x] Detect board itself 
+    - Used an example (I don't remember from where) to run the chessboard detector. Then brought up my chessboard to the camera, overlayed a square around the detected chessboard.
+- [ ] Detect squares with in board, associate letters & numbers to squares  
 - [ ] Detect pieces  
 - [ ] Associate pieces to squares  
 - [ ] Adjust orientation of board markings to orientation of pieces (set right sides of the board to where white and black should be)  
