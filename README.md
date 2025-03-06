@@ -5,6 +5,8 @@
     - Used OpenCV to get a live video feed from my webcam. 
 - [x] Detect board itself 
     - Used an example (I don't remember from where) to run the chessboard detector. Then brought up my chessboard to the camera, overlayed a square around the detected chessboard.
+- [ ] (Helper) Rewrite all images in Assets folder numerically
+- [ ] (Helper) Test board detector on each image in Assets folder, print out table of images that passed, as well as a percentage
 - [ ] Detect squares with in board, associate letters & numbers to squares  
 - [ ] Detect pieces  
 - [ ] Associate pieces to squares  
@@ -40,7 +42,7 @@
   - [ ] Save and close PGN, end of program  
 
 ## Notes
-- [ ] Theoretically, this should work for both live games and virtual games. I don’t actually detect the pieces themselves, I’m tracking the change of position of a piece relative to the position on the board. The thing in the square can be anything as long as it remains consistent.  
+- Theoretically, this should work for both live games and virtual games. I don’t actually detect the pieces themselves, I’m tracking the change of position of a piece relative to the position on the board. The thing in the square can be anything as long as it remains consistent.  
 
 ## References
 - [Chess Notation](https://www.chess.com/terms/chess-notation)  
